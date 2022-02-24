@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class P2b {
     public static void main(String[] args){
+//        Prompt user to enter the number of month required
 
         int month;
         String monthName;
         Scanner m = new Scanner(System.in);
         System.out.println("Enter month number: ");
         month = m.nextInt();
+//        create switch statement
         monthName = switch (month) {
             case 1 -> "January";
             case 2 -> "February";

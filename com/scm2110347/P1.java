@@ -3,8 +3,6 @@ package com.scm2110347;
 import java.util.Scanner;
 
 
-
-
 public class P1 {
     public static void main(String[] args){
 //        declare variables

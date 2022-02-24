@@ -9,6 +9,7 @@ public class P2a {
         Scanner m = new Scanner(System.in);
         System.out.println("Enter month number: ");
         month = m.nextInt();
+//        Create if statements
         if (month == 1){
             System.out.println("January");
         }else if (month == 2){
